@@ -1,0 +1,14 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        maven {
+            name "forge"
+            url "https://maven.minecraftforge.net/"
+        }
+        maven {
+            name 'parchment'
+            url 'https://maven.parchmentmc.org'
+        }
+    }
+}
+rootProject.name = 'magitek-mod'

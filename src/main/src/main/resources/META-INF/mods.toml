@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="${loader_version}"
+issueTrackerURL="https://github.com/mekanism/Mekanism/issues"
+license="MIT"
+
+[[mods]]
+modId="magitek"
+version="${version}"
+displayName="Magitek"
+displayURL="https://aidancbrady.com/mekanism/"
+authors="Ian Drake"
+credits="Ian Drake"
+logoFile="logo.png"
+description='''Magitek is a fusion of Magic and Technology'''
+
+[[dependencies.magitek]]
+modId="minecraft"
+mandatory=true
+versionRange="${mc_version}"
+side="BOTH"
+[[dependencies.magitek]]
+modId="forge"
+mandatory=true
+versionRange="${forge_version}"
+side="BOTH"
+[[dependencies.magitek]]
+modId="jei"
+mandatory=false
+versionRange="${jei_version}"
+ordering="AFTER"
+side="BOTH"
